@@ -9,11 +9,11 @@
     - GRANT_TYPE
 - ```python main.py```
 <br>
-***Messages will be saved in messages.json***
+**Messages will be saved in messages.json**
 <br>
 <br>
 Example:
-```
+```python
 [
     'username': [
         {
