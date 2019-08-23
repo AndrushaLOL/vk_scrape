@@ -73,7 +73,7 @@ def get_all_dialogs():
         user = response[0]
         username = user['first_name'] + '_' + user['last_name']
         print(f'Donwloading for {username}, link: https://vk.com/id{i}')
-        res[username] = get_all_messages(i)
+        res[i] = get_all_messages(i)
     return res
 
 messages = get_all_dialogs()
