@@ -30,8 +30,8 @@ Example:
             'attachments': [],
             'is_hidden': False},
         },
-        ...
+        
     ],
-    ...
+    
 ]
 ```
